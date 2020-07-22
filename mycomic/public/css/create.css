@@ -1,0 +1,33 @@
+/* 类型导航栏样式 */
+.nav2 {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    }
+.nav2 > li {
+  position: relative;
+  display: block;
+  }
+.nav2 > li > a {
+  position: relative;
+  display: block;
+  padding: 8px 15px;
+  color: #353535;
+  }
+.nav2 > li > a:hover,
+.nav2 > li > a:focus {
+  color: #BD7B46;
+  text-decoration: none;
+  background-color: #FFF0D5;
+  }
+
+
+.nav2-pills > li {
+    float: left;
+}
+.nav2-pills > li > a {
+    border-radius: 20px;
+}
+.nav2-pills > li + li {
+    margin-left: 2px;
+}
